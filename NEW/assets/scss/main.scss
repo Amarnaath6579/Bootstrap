@@ -1,0 +1,33 @@
+/*
+define a variables
+*/
+@import 'partials/partials';
+.container-fluid{
+    background-color: rgb(255, 244, 244);
+    font-family: Arial, Helvetica, sans-serif;
+}
+// logo
+.img-fluid{
+    margin: 60px 0 0 60px;
+}
+// five link
+// Nesting using
+ul{
+    margin-top: 22px;
+    li{
+        margin-left: 55px;
+    }
+}
+.nav-link:hover{
+    border-bottom: 2px solid #403df1 ;
+    color: #403df1;
+}
+.btn{
+   
+    margin: 0 50px 0 23px;
+    background-color: #e7e0d4;
+}
+.nav-link{
+    font-size: 21px;
+    color: #000000!important;
+} 
